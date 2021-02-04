@@ -41,4 +41,4 @@ var edad = 40;
 edad++;  // operador de incremento por 1
 edad += 2; 
 
-edad;
+edad; // prueba de git

@@ -2,12 +2,12 @@
 
 // de operación 
 
-3 + 2
-50 - 10
-10 * 3
-20 / 2
+3 + 2  //realiza una suma numerica
+50 - 10 //realiza una resta numerica
+10 * 3 //realiza una multiplicacion numerica
+20 / 2 // realiza una division numerica
 
-'Diego ' + 'De Granda'
+'Diego ' + 'De Granda' //genera una concatenacion
 
 // Unary operator, aquí es porque hay solo 1 operando involucrado 
 
@@ -36,9 +36,9 @@ true || false // operador or (o), este operador genera una validacion siempre y 
 
 // Operador que solo se pueden utilizar con variables 
 
-var edad = 40;
+var edad = 40; //declaracion e inicializacion de variable con asignacion
 
 edad++;  // operador de incremento por 1
-edad += 2; 
+edad += 2;  // operador de incremento por 2
 
-edad; // prueba de git
+edad; 

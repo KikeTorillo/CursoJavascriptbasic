@@ -29,5 +29,12 @@ console.log(nombre);
 
 imprimirNombre(Enrique);
 
-//se hace un cambio de prueba
+//cuarta forma para destructurar un objeto
+function imprimirNombre4 (persona) {
+    var {nombre} = persona;
+    console.log(nombre.toUpperCase());
+    }
+    
+    imprimirNombre4(Enrique);
+
 

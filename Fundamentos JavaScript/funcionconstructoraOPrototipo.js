@@ -25,4 +25,32 @@ for (i = 0; i < autoNuevo.length; i++) { //se genera un loop para la impresion d
 var auto1  = new auto ("marca","modelo", 2000);
 
 
+//tambien se conoce pomo prototipo 
+
+function personas (nombre, apellido, altura) {
+
+    this.nombre = nombre;
+    this.apellido = apellido;
+    this.altura = altura;
+
+}
+
+var enrique = new personas ('Enrique', 'arellanes', 1.75);
+var  carlos = new personas ('carlos', 'Hernandez', 1.90);
+
+personas.prototype.estatura = function () {
+    if (this.altura > 1.8) {
+
+        console.log (`mi nombre es ${this.nombre} y soy alto por que mido ${this.altura}`)
+
+    }
+
+    else {
+
+        console.log (`mi nombre es ${this.nombre} y soy bajo por que mido ${this.altura}`)
+
+    }
+}
+
+
 
